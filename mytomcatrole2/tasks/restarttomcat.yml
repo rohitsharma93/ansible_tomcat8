@@ -1,5 +1,5 @@
 ---
-- name: restar tomcat service
+- name: restart tomcat service
   systemd: 
       name: tomcat
       state: restarted
