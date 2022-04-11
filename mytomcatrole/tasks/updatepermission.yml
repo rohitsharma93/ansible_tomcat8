@@ -2,8 +2,8 @@
 - name: give the tomcat group ownership
   file: 
     path: /opt/tomcat
+    group: tomcat
     recurse: yes
-    name: tomcat
     state: directory
 
 - name: give the tomcat group read access
@@ -21,7 +21,7 @@
 
 - name: make the tomcat user the owner of the webapps
   file: 
-    path: /opt/tomcat/webapps
+    path: /opt/tomcat/webapps/
     recurse: yes
     owner: tomcat
     state: directory

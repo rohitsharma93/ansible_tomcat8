@@ -1,5 +1,5 @@
 ---
-- name: update package
+- name: update packages
   apt: 
     update_cache: yes
 
