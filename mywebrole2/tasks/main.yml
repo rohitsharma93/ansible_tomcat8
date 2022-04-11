@@ -5,6 +5,11 @@
     name: "{{mywebpackforubuntu}}"
     state: present
 
+- name: i want to install java on ansible nodes
+  apt: 
+    name: "{{myjavapackforubuntu}}"
+    state: present
+
 - name: i want to copy my index file 
   template: 
      src: template/index.j2
