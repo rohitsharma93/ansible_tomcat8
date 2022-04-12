@@ -1,5 +1,0 @@
----
-# vars file for mywebrole2
-
-mywebpackforubuntu: apache2
-myjavapackforubuntu: openjdk-8-jre
