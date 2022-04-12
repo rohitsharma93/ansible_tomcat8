@@ -2,7 +2,7 @@
 - name: create a new tomcat group
   group: 
     name: tomcat
-    state: directory
+    state: present
 
 - name: create a new tomcat user
   user: 
