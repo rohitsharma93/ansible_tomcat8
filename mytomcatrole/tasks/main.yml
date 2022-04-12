@@ -7,6 +7,6 @@
 - include_tasks: tomcatservice.yml
 - include_tasks: starttomcat.yml
 - include_tasks: tomcatwebmanager.yml
-- include_tasks: deployjenkins.j2
+- include_tasks: deployjenkins.yml
 - include_tasks: restartservice.yml
 
