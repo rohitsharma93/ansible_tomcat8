@@ -2,7 +2,7 @@
 # tasks file for mywebrole2
 - name: i want to install webserver on ansible nodes
   apt: 
-    name: apache2
+    name: "{{mywebpackforubuntu}}"
     state: present
 
 - name: i want to copy my index file
