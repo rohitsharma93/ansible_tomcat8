@@ -5,7 +5,7 @@
     name: "{{mywebpackforubuntu}}"
     state: present
 
-- name: i want to install java on redhat node
+- name: i want to install java on RedHat node
   yum: 
     name: "{{myjavapackforredhat}}"
     state: present
