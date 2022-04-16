@@ -5,7 +5,3 @@
      name: apache2
      state: restarted
 
-- name: restart RedHat node
-  service: 
-     name: java-1.8.0-openjdk
-     state: restarted

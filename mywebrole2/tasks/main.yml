@@ -5,11 +5,6 @@
     name: apache2
     state: present
 
-- name: i want to install java on RedHat node
-  yum: 
-    name: java-1.8.0-openjdk
-    state: present
-
 - name: i want to copy my index file 
   template: 
     src: template/myindex.j2
