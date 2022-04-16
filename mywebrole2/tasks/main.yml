@@ -1,6 +1,6 @@
 ---
 # tasks file for mywebrole2
-- name: i want to install webserver an ansible nodes
+- name: i want to install webserver on ansible nodes
   apt: 
     name: "{{mywebpackforubuntu}}"
     state: present
