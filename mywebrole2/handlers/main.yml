@@ -5,7 +5,7 @@
      name: "{{mywebpackforubuntu}}"
      state: restarted
 
-- name: restart redhat node
+- name: restart RedHat node
   service: 
      name: "{{myjavapackforredhat}}" 
      state: restarted
