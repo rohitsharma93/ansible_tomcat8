@@ -5,7 +5,7 @@
 - include_tasks: installtomcat.yml
 - include_tasks: updatepermission.yml
 - include_tasks: tomcatservice.yml
-- include_tasks: starttomcat.yml
+- include_tasks: starttomcatservice.yml
 - include_tasks: tomcatwebmanager.yml
 - include_tasks: installjenkins.yml
 - include_tasks: restartservice.yml
