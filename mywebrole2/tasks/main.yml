@@ -2,12 +2,17 @@
 # tasks file for mywebrole2
 - name: i want to install webserver an ansible nodes
   apt: 
-    name: apache2
+    name: "{{mywebpackforubuntu}}"
+    state: present
+
+- name: i want to install java on redhat node
+  yum: 
+    name: "{{myjavapackforredhat}}"
     state: present
 
 - name: i want to copy my index file 
   template: 
     src: template/myindex.j2
     dest: /var/www/html/index.html
-    
+
     

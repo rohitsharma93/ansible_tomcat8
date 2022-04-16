@@ -1,3 +1,4 @@
 ---
 # vars file for mywebrole2
 mywebpackforubuntu: apache2
+myjavapackforredhat: java-1.8.0-openjdk
