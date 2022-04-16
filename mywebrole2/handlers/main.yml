@@ -2,10 +2,10 @@
 # handlers file for mywebrole2
 - name:  restart webserver
   service: 
-     name: "{{mywebpackforubuntu}}"
+     name: apache2
      state: restarted
 
 - name: restart RedHat node
   service: 
-     name: "{{myjavapackforredhat}}" 
+     name: java-1.8.0-openjdk
      state: restarted
