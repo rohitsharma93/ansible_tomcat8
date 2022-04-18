@@ -1,5 +1,5 @@
 ---
-- name: start the Tomcat service
+- name: start the tomcat service
   systemd:
     name: tomcat
     state: started

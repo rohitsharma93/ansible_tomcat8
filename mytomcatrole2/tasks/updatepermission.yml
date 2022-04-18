@@ -2,15 +2,15 @@
 - name: give the tomcat group ownership
   file: 
     path: /opt/tomcat
+    group: tomcat
     recurse: yes
-    name: tomcat
     state: directory
 
 - name: give the tomcat group read access
   file: 
     path: /opt/tomcat/conf
-    mode: g+r
     recurse: yes
+    mode: g+r
     state: directory
 
 - name: give the tomcat group read execute access
