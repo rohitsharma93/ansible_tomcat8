@@ -13,3 +13,4 @@
   template: 
      src: template/tomhost.j2
      dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
+     
