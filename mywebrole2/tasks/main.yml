@@ -7,5 +7,5 @@
 
 - name: i want to copy my index file
   template: 
-   src: template/myindex.j2
+   src: template/index.j2
    dest: /var/www/html/index.html
