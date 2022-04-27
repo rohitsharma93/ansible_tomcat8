@@ -1,5 +1,0 @@
----
-- name: create a systemd user file
-  template: 
-    src: template/tomuser.j2
-    dest: /etc/systemd/system/tomcat.service
