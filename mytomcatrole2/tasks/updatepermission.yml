@@ -3,7 +3,7 @@
   file: 
     path: /opt/tomcat
     recurse: yes 
-    group: tomcat
+    owner: tomcat
     state: directory
 
 - name: give the tomcat group read access
