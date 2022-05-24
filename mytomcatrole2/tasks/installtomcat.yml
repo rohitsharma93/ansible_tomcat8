@@ -5,7 +5,7 @@
     dest: /home/ubuntu/apache-tomcat-9.0.30.tar.gz
     force_basic_auth: yes
 
-- name: create the directory
+- name: create the tomcat directory
   file: 
     path: /opt/tomcat
     state: directory
