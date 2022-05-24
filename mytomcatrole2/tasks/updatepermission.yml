@@ -2,8 +2,8 @@
 - name: give the tomcat group ownership
   file: 
    path: /opt/tomcat
-   recurse: yes 
    group: tomcat
+   recurse: yes
    state: directory
 
 - name: give the tomcat group read access
