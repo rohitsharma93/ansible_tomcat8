@@ -6,8 +6,8 @@
 
 - name: create a new tomcat user
   user: 
-   name: tomcat
-   shell: /bin/false
-   home: /opt/tomcat
-   group: tomcat
-   state: present
+    name: tomcat
+    shell: /bin/false
+    home: /opt/tomcat
+    group: tomcat
+    state: present
