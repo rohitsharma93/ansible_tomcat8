@@ -6,3 +6,4 @@
     force_basic_auth: yes
     url_username: jenkins
     url_password: rohit
+    timeout: 30
