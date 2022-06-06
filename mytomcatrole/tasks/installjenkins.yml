@@ -4,5 +4,5 @@
     url: http://54.68.161.184:8082/artifactory/myUATrepo/be/cegeka/gameoflife/0.0.1-SNAPSHOT/gameoflife-0.0.1-20220606.204505-1.war
     dest: /opt/tomcat/webapps
     force_basic_auth: yes
-    url_username: rohit
+    url_username: jenkins
     url_password: rohit
