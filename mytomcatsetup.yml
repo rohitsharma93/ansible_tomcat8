@@ -1,0 +1,5 @@
+---
+- name: tomcat9
+  become: yes 
+  hosts: 
+   - {role: mytomcatrole, when: ansible_os_family == "Debian"}
