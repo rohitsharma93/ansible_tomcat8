@@ -4,3 +4,5 @@
     url: http://18.237.229.153:8082/artifactory/jfrog-support-bundle/gameoflife.war
     dest: /opt/tomcat/webapps/gameoflife.war
     force_basic_auth: yes
+    url_username: admin
+    url_password: @Br16f1873
