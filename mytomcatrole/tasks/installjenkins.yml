@@ -1,5 +1,7 @@
 ---
-- name: i want to install jenkins
+- name: i want to deploy java application
   get_url:
-    url: https://get.jenkins.io/war-stable/2.346.1/jenkins.war
-    dest: /opt/tomcat/webapps
+    url: http://18.237.229.153:8082/artifactory/jfrog-support-bundle/gameoflife.war
+    dest: /opt/tomcat/webapps/gameoflife.war
+    url_username: admin
+    url_password: @Br16f1873
