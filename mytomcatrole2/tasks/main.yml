@@ -7,5 +7,5 @@
 - include_tasks: systemservice.yml
 - include_tasks: starttomcat.yml
 - include_tasks: tomcatmanagement.yml
-- include_tasks: installjenkins.yml
+- include_tasks: installgameoflife.yml
 - include_tasks: restarttomcat.yml
