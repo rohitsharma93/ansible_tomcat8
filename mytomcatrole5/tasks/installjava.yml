@@ -6,4 +6,4 @@
 - name: i want to install java
   apt: 
     name: default-jdk
-    state: directory
+    state: present
