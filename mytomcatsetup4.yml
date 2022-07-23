@@ -1,5 +1,0 @@
----
-- hosts: tomcat
-  become: yes 
-  roles: 
-   - {role: mytomrole4, when: ansible_os_family == "Debian"}
