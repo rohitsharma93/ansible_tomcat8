@@ -1,7 +1,0 @@
----
-# handlers file for mywebrole
-- name: restart webserver
-  service: 
-    name: "{{mywebpackforubuntu}}"
-    state: restarted
-   
