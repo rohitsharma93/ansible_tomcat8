@@ -2,4 +2,4 @@
 - hosts: tomcat
   become: yes
   roles:  
-   - role: {role: mytomcatrole03, when: ansible_os_family == "Debian"}
+   - {role: mytomcatrole03, when: ansible_os_family == "Debian"}
